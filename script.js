@@ -39,10 +39,10 @@ console.log(generateFibonacciOdd());
 
 let pokemones = ["Pikachu", "Charmander", "Bulbasaur", "Squirtle"]
 
-let pokemonesLowerCase = pokemones.map(pokemon => pokemon.toLowerCase());
+let pokemonesUpperCase = pokemones.map(pokemon => pokemon.toUpperCase());
 
 
-console.log(pokemonesLowerCase);
+console.log(pokemonesUpperCase);
 
 // Ejercicio 5 
 
